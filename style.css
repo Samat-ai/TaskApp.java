@@ -1,0 +1,135 @@
+/* Global styles */
+.root {
+    -fx-background-color: linear-gradient(
+            from 0% 0% to 100% 100%,
+            #9aa2a2 0%,    /* light cyan */
+            #48485d 100%   /* soft blue */
+    );
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Filter bar */
+.filter-bar {
+    -fx-padding: 8 0 0 0;
+}
+.filter-bar .radio-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffffcc;
+    -fx-padding: 4 12;
+    -fx-background-radius: 4;
+}
+.filter-bar .radio-button:selected {
+    -fx-background-color: #ffffff80;
+    -fx-text-fill: #333;
+}
+
+/* Task cards */
+.list-cell {
+    -fx-background-color: #fdf6e3;
+    -fx-background-radius: 8;
+    -fx-padding: 8 12;
+    -fx-border-radius: 8;
+    -fx-border-color: transparent;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0.5, 0, 2);
+    -fx-margin: 4 0 4 0;
+}
+.list-cell:hover {
+    -fx-background-color: #f5efd8;
+}
+.completed .task-name {
+    -fx-text-fill: #aaa;
+    -fx-strikethrough: true;
+}
+
+/*
+ 1) ListView overall background (the viewport area) */
+.list-view {
+    /* control-inner-background fills the scrollable area */
+    -fx-control-inner-background: #fdf6e3;  /* a light parchment tone */
+}
+
+/* Priority overlays */
+.priority-high {
+    -fx-background-color: rgba(255, 0, 0, 0.54);
+}
+.priority-medium {
+    -fx-background-color: rgba(255, 204, 0, 0.58);
+}
+.priority-low {
+    -fx-background-color: rgba(0, 154, 255, 0.61);
+}
+
+/* Task text */
+.task-name {
+    -fx-font-size: 14px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #333;
+}
+.task-meta {
+    -fx-font-size: 11px;
+    -fx-text-fill: #666;
+}
+
+/* Scrollbar */
+.scroll-bar:vertical .thumb {
+    -fx-background-color: rgba(255,255,255,0.5);
+    -fx-background-radius: 6;
+}
+.scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+}
+
+/* Button pills */
+.btn-icon {
+    -fx-min-width: 48px;
+    -fx-min-height: 48px;
+    -fx-pref-width: 48px;
+    -fx-pref-height: 48px;
+    -fx-background-radius: 24px;
+    -fx-alignment: center;
+}
+
+.btn-add {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-background-radius: 16;
+    -fx-padding: 6 12;
+    -fx-cursor: hand;
+}
+.btn-add:hover {
+    -fx-background-color: #218838;
+}
+
+.btn-edit {
+    -fx-background-color: #ffc107;
+    -fx-text-fill: #333;
+    -fx-background-radius: 16;
+    -fx-padding: 6 12;
+    -fx-cursor: hand;
+}
+.btn-edit:hover {
+    -fx-background-color: #e0a800;
+}
+
+.btn-delete {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+    -fx-background-radius: 16;
+    -fx-padding: 6 12;
+    -fx-cursor: hand;
+}
+.btn-delete:hover {
+    -fx-background-color: #c82333;
+}
+
+.btn-clear {
+    -fx-background-color: #ff5252;  /* existing red */
+    -fx-text-fill: white;
+    -fx-background-radius: 16;
+    -fx-padding: 6 12;
+    -fx-cursor: hand;
+}
+.btn-clear:hover {
+    -fx-background-color: #e04848;
+}
+
