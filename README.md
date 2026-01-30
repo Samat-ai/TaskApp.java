@@ -5,7 +5,7 @@ A desktop task management application developed to demonstrate proficiency in Ja
 Images:
 
 <img width="260" height="460" alt="Screenshot 2026-01-30 000003" src="https://github.com/user-attachments/assets/60987e21-52e5-4db1-9707-55f9e7dc79e6" />
-<img width="742" height="337" alt="Screenshot 2026-01-30 000101" src="https://github.com/user-attachments/assets/85173560-c9af-44b1-a6ab-deab0a1acfa5" />
+<img width="500" height="337" alt="Screenshot 2026-01-30 000101" src="https://github.com/user-attachments/assets/85173560-c9af-44b1-a6ab-deab0a1acfa5" />
 <img width="260" height="460" alt="Screenshot 2026-01-30 000149" src="https://github.com/user-attachments/assets/aaf44cbf-e364-4735-b1e2-e237843575aa" />
 <img width="260" height="460" alt="Screenshot 2026-01-30 000128" src="https://github.com/user-attachments/assets/1feeb6c4-f5ea-4f21-9c1b-e621a1dd02a0" />
 
